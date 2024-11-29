@@ -7,9 +7,12 @@ package greet;
 import "google/protobuf/timestamp.proto";
 
 // The greeting service definition.
+// The greeting service definition.
 service Registeration {
-  // Sends a greeting
   rpc Register (RegisterationRequest) returns (RegisterationResponse);
+  rpc Get(RegistererId) returns (RegistererResponse);
+  rpc Delete(RegistererId) returns (RegisterationResponse);
+  rpc Update(RegisterationRequest) returns (RegisterationResponse);
 }
 
 // The request message containing the user's name.
@@ -25,4 +28,25 @@ message RegisterationRequest {
 message RegisterationResponse {
 	string message = 1;
 	bool suceeded = 2; 
+}
+
+message Registerer{
+	  int32 id = 1;
+	  string fName = 2;
+	  string lName = 3;
+	  string NationalCode = 4;
+	  google.protobuf.Timestamp dob = 5;
+}
+
+
+message RegistererId{
+	int32 id = 1;
+}
+
+message RegistererResponse{
+	  int32 id = 1;
+	  string fName = 2;
+	  string lName = 3;
+	  string NationalCode = 4;
+	  google.protobuf.Timestamp dob = 5;
 }

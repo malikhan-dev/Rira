@@ -35,5 +35,18 @@ namespace Client.Controllers
             };
             
         }
+
+        [HttpGet(Name = "Get")]
+        public async Task<RegistererResponse> Get([FromQuery] int id)
+        {
+            using var channel = GrpcChannel.ForAddress(_serverAddress);
+
+            var client = new Registeration.RegisterationClient(channel);
+
+            var reply = client.Get(
+                              new RegistererId { Id = id});
+
+            return reply;
+        }
     }
 }

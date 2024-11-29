@@ -23,7 +23,7 @@ namespace Edge.Grpc.Adapters
         public static RegistererResponse AdaptRegistererQuery(this RegistererDto dto)
            => new RegistererResponse()
            {
-               Dob = Timestamp.FromDateTime(dto.DateOfBirth),
+               Dob = Timestamp.FromDateTime(dto.DateOfBirth.ToUniversalTime()),
                FName = dto.FirstName,
                NationalCode = dto.NationalCode,
                LName = dto.LastName,
