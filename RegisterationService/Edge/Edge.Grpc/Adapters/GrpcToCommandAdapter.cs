@@ -1,5 +1,7 @@
 ﻿using Application.Contracts.Commands;
 using Application.Contracts.Commands.Results;
+using Application.Contracts.DTO;
+using Google.Protobuf.WellKnownTypes;
 
 namespace Edge.Grpc.Adapters
 {
@@ -11,10 +13,6 @@ namespace Edge.Grpc.Adapters
         public static RegisterCommand AdaptToUpdateCommand(this RegisterationRequest request)
            => new RegisterCommand(request.Id, request.FName, request.LName, request.NationalCode, request.Dob.ToDateTime());
 
-
-
-
-
         public static RegisterationResponse AdaptToResponse<T>(this BaseCommandResult<T> response)
             => new RegisterationResponse()
             {
@@ -22,7 +20,15 @@ namespace Edge.Grpc.Adapters
                 Message = response?.Description?.ToString() ?? string.Empty,
             };
 
-
+        public static RegistererResponse AdaptRegistererQuery(this RegistererDto dto)
+           => new RegistererResponse()
+           {
+               Dob = Timestamp.FromDateTime(dto.DateOfBirth),
+               FName = dto.FirstName,
+               NationalCode = dto.NationalCode,
+               LName = dto.LastName,
+               Id = dto.Id,
+           };
 
     }
 }

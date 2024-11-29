@@ -30,6 +30,13 @@ message RegisterationResponse {
 	bool suceeded = 2; 
 }
 
+message Registerer{
+	  int32 id = 1;
+	  string fName = 2;
+	  string lName = 3;
+	  string NationalCode = 4;
+	  google.protobuf.Timestamp dob = 5;
+}
 
 
 message RegistererId{

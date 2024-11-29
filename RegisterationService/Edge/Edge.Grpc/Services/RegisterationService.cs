@@ -1,4 +1,5 @@
 using Application.Contracts.Commands;
+using Application.Contracts.Queries;
 using Edge.Grpc;
 using Edge.Grpc.Adapters;
 using Grpc.Core;
@@ -44,6 +45,13 @@ namespace Edge.Grpc.Services
             var response = result.AdaptToResponse();
 
             return response;
+        }
+
+        public override async Task<RegistererResponse> Get(RegistererId request, ServerCallContext context)
+        {
+            var result = await _mediator.Send(new RegistererQuery(request.Id));
+
+            return result.AdaptRegistererQuery();
         }
     }
 }
