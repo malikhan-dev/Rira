@@ -70,3 +70,4 @@ C:\Users\Mami\Desktop\Rira-challenge\Clients\WebApiClient\Client\Client\obj\Debu
 C:\Users\Mami\Desktop\Rira-challenge\Clients\WebApiClient\Client\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\Mami\Desktop\Rira-challenge\Clients\WebApiClient\Client\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
 C:\Users\Mami\Desktop\Rira-challenge\Clients\WebApiClient\Client\Client\obj\Debug\net8.0\ref\Client.dll
+C:\Users\Mami\Desktop\Rira-challenge\Clients\WebApiClient\Client\Client\obj\Debug\net8.0\Client.sourcelink.json

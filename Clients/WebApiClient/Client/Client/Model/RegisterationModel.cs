@@ -7,4 +7,10 @@
         public string NationalCode { get;  set; }
         public DateTime DateOfBirth { get;  set; }
     }
+
+    public class UpdateRegisterationModel : RegisterationModel
+    {
+        public int Id { get; set; }
+
+    }
 }

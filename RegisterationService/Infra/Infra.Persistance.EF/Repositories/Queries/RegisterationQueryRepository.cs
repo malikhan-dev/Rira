@@ -25,7 +25,7 @@ namespace Infra.Persistance.EF.Repositories.Queries
         }
         public Registeration Get(int id)
         {
-            return _context.Registerations.Where(x => x.Id == id).First();
+            return _context.Registerations.Where(x => x.Id == id).FirstOrDefault();
         }
     }
 }

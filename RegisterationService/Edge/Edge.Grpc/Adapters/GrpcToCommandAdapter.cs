@@ -10,8 +10,8 @@ namespace Edge.Grpc.Adapters
         public static RegisterCommand AdaptToCommand(this RegisterationRequest request)
             => new RegisterCommand(request.Id, request.FName, request.LName, request.NationalCode, request.Dob.ToDateTime());
 
-        public static RegisterCommand AdaptToUpdateCommand(this RegisterationRequest request)
-           => new RegisterCommand(request.Id, request.FName, request.LName, request.NationalCode, request.Dob.ToDateTime());
+        public static UpdateRegistererCommand AdaptToUpdateCommand(this RegisterationRequest request)
+           => new UpdateRegistererCommand(request.Id, request.FName, request.LName, request.NationalCode, request.Dob.ToDateTime());
 
         public static RegisterationResponse AdaptToResponse<T>(this BaseCommandResult<T> response)
             => new RegisterationResponse()

@@ -10,6 +10,7 @@ using grpc = global::Grpc.Core;
 namespace Edge.Grpc {
   /// <summary>
   /// The greeting service definition.
+  /// The greeting service definition.
   /// </summary>
   public static partial class Registeration
   {
@@ -52,12 +53,40 @@ namespace Edge.Grpc {
     static readonly grpc::Marshaller<global::Edge.Grpc.RegisterationRequest> __Marshaller_greet_RegisterationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegisterationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Edge.Grpc.RegisterationResponse> __Marshaller_greet_RegisterationResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegisterationResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Edge.Grpc.RegistererId> __Marshaller_greet_RegistererId = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegistererId.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Edge.Grpc.RegistererResponse> __Marshaller_greet_RegistererResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegistererResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse> __Method_Register = new grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Register",
+        __Marshaller_greet_RegisterationRequest,
+        __Marshaller_greet_RegisterationResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegistererResponse> __Method_Get = new grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegistererResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Get",
+        __Marshaller_greet_RegistererId,
+        __Marshaller_greet_RegistererResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegisterationResponse> __Method_Delete = new grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegisterationResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Delete",
+        __Marshaller_greet_RegistererId,
+        __Marshaller_greet_RegisterationResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse> __Method_Update = new grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Update",
         __Marshaller_greet_RegisterationRequest,
         __Marshaller_greet_RegisterationResponse);
 
@@ -94,53 +123,85 @@ namespace Edge.Grpc {
       {
       }
 
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Edge.Grpc.RegisterationResponse Register(global::Edge.Grpc.RegisterationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Register(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Edge.Grpc.RegisterationResponse Register(global::Edge.Grpc.RegisterationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Register, null, options, request);
       }
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegisterationResponse> RegisterAsync(global::Edge.Grpc.RegisterationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return RegisterAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegisterationResponse> RegisterAsync(global::Edge.Grpc.RegisterationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Register, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Edge.Grpc.RegistererResponse Get(global::Edge.Grpc.RegistererId request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Get(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Edge.Grpc.RegistererResponse Get(global::Edge.Grpc.RegistererId request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Get, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegistererResponse> GetAsync(global::Edge.Grpc.RegistererId request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegistererResponse> GetAsync(global::Edge.Grpc.RegistererId request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Get, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Edge.Grpc.RegisterationResponse Delete(global::Edge.Grpc.RegistererId request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Delete(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Edge.Grpc.RegisterationResponse Delete(global::Edge.Grpc.RegistererId request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Delete, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegisterationResponse> DeleteAsync(global::Edge.Grpc.RegistererId request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegisterationResponse> DeleteAsync(global::Edge.Grpc.RegistererId request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Delete, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Edge.Grpc.RegisterationResponse Update(global::Edge.Grpc.RegisterationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Update(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Edge.Grpc.RegisterationResponse Update(global::Edge.Grpc.RegisterationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Update, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegisterationResponse> UpdateAsync(global::Edge.Grpc.RegisterationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Edge.Grpc.RegisterationResponse> UpdateAsync(global::Edge.Grpc.RegisterationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Update, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
