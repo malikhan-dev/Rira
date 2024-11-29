@@ -18,6 +18,15 @@ namespace Domain.Model.Registerations
         {
             
         }
+
+        public void Update(string fName, string lName, string nationalCode, DateTime dob)
+        {
+            this.FirstName = fName;
+            this.LastName = lName;
+            this.NationalCode = nationalCode;
+            this.DateOfBirth = dob;
+
+        }
         public Registeration(string fName, string lName, string nationalCode, DateTime dob)
         {
             FirstName = fName;

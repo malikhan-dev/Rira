@@ -52,12 +52,40 @@ namespace Edge.Grpc {
     static readonly grpc::Marshaller<global::Edge.Grpc.RegisterationRequest> __Marshaller_greet_RegisterationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegisterationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Edge.Grpc.RegisterationResponse> __Marshaller_greet_RegisterationResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegisterationResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Edge.Grpc.RegistererId> __Marshaller_greet_RegistererId = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegistererId.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Edge.Grpc.RegistererResponse> __Marshaller_greet_RegistererResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Edge.Grpc.RegistererResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse> __Method_Register = new grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Register",
+        __Marshaller_greet_RegisterationRequest,
+        __Marshaller_greet_RegisterationResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegistererResponse> __Method_Get = new grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegistererResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Get",
+        __Marshaller_greet_RegistererId,
+        __Marshaller_greet_RegistererResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegisterationResponse> __Method_Delete = new grpc::Method<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegisterationResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Delete",
+        __Marshaller_greet_RegistererId,
+        __Marshaller_greet_RegisterationResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse> __Method_Update = new grpc::Method<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Update",
         __Marshaller_greet_RegisterationRequest,
         __Marshaller_greet_RegisterationResponse);
 
@@ -71,14 +99,26 @@ namespace Edge.Grpc {
     [grpc::BindServiceMethod(typeof(Registeration), "BindService")]
     public abstract partial class RegisterationBase
     {
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Edge.Grpc.RegisterationResponse> Register(global::Edge.Grpc.RegisterationRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Edge.Grpc.RegistererResponse> Get(global::Edge.Grpc.RegistererId request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Edge.Grpc.RegisterationResponse> Delete(global::Edge.Grpc.RegistererId request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Edge.Grpc.RegisterationResponse> Update(global::Edge.Grpc.RegisterationRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -91,7 +131,10 @@ namespace Edge.Grpc {
     public static grpc::ServerServiceDefinition BindService(RegisterationBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Register, serviceImpl.Register).Build();
+          .AddMethod(__Method_Register, serviceImpl.Register)
+          .AddMethod(__Method_Get, serviceImpl.Get)
+          .AddMethod(__Method_Delete, serviceImpl.Delete)
+          .AddMethod(__Method_Update, serviceImpl.Update).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -102,6 +145,9 @@ namespace Edge.Grpc {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, RegisterationBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_Register, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse>(serviceImpl.Register));
+      serviceBinder.AddMethod(__Method_Get, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegistererResponse>(serviceImpl.Get));
+      serviceBinder.AddMethod(__Method_Delete, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Edge.Grpc.RegistererId, global::Edge.Grpc.RegisterationResponse>(serviceImpl.Delete));
+      serviceBinder.AddMethod(__Method_Update, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Edge.Grpc.RegisterationRequest, global::Edge.Grpc.RegisterationResponse>(serviceImpl.Update));
     }
 
   }

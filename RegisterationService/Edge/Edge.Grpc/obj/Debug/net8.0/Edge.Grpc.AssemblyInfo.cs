@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Edge.Grpc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+574eb8654690352b26bdc244c83b417aa30a2999")]
 [assembly: System.Reflection.AssemblyProductAttribute("Edge.Grpc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Edge.Grpc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

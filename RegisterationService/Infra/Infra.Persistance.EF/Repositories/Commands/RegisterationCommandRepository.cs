@@ -22,5 +22,19 @@ namespace Infra.Persistance.EF.Repositories.Commands
             _context.Add(registeration);
             await _context.SaveChangesAsync(token);
         }
+
+        public async Task Remove(int id, CancellationToken token)
+        {
+            var item = _context.Registerations.Where(x => x.Id == id).FirstOrDefault();
+            _context.Remove(item);
+            await _context.SaveChangesAsync(token);
+            
+        }
+
+        public async Task Update(Registeration registeration, CancellationToken token)
+        {
+            _context.Update(registeration);
+            await _context.SaveChangesAsync(token);
+        }
     }
 }
