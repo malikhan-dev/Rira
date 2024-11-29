@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B22E2ED-34F7-48BF-85B1-7D205DC3CE56}|Application\\Application\\Application.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\application\\application\\commandhandler\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B22E2ED-34F7-48BF-85B1-7D205DC3CE56}|Application\\Application\\Application.csproj|solutionrelative:application\\application\\commandhandler\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\edge\\edge.grpc\\services\\registerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|solutionrelative:edge\\edge.grpc\\services\\registerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B22E2ED-34F7-48BF-85B1-7D205DC3CE56}|Application\\Application\\Application.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\application\\application\\pipelines\\exceptionhandledcommandbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B22E2ED-34F7-48BF-85B1-7D205DC3CE56}|Application\\Application\\Application.csproj|solutionrelative:application\\application\\pipelines\\exceptionhandledcommandbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\edge\\edge.grpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|solutionrelative:edge\\edge.grpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\edge\\edge.grpc\\adapters\\grpctocommandadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|solutionrelative:edge\\edge.grpc\\adapters\\grpctocommandadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A318D99-3954-49CE-9F43-370D7A8AFADE}|Domain\\Domain\\Domain.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\domain\\domain\\model\\registerations\\repositories\\iregisterationqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A318D99-3954-49CE-9F43-370D7A8AFADE}|Domain\\Domain\\Domain.csproj|solutionrelative:domain\\domain\\model\\registerations\\repositories\\iregisterationqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\context\\registrationquerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\context\\registrationquerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\init\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\init\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\context\\registrationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\context\\registrationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\repositories\\commands\\registerationcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\repositories\\commands\\registerationcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\context\\registrationbasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\context\\registrationbasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A318D99-3954-49CE-9F43-370D7A8AFADE}|Domain\\Domain\\Domain.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\domain\\domain\\model\\registerations\\repositories\\iregisterationcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A318D99-3954-49CE-9F43-370D7A8AFADE}|Domain\\Domain\\Domain.csproj|solutionrelative:domain\\domain\\model\\registerations\\repositories\\iregisterationcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2022B2E-67EC-4A28-8B8F-246F316A53A3}|Application\\Application.Contracts\\Application.Contracts.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\application\\application.contracts\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2022B2E-67EC-4A28-8B8F-246F316A53A3}|Application\\Application.Contracts\\Application.Contracts.csproj|solutionrelative:application\\application.contracts\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\edge\\edge.grpc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89E93FCD-CA5E-4259-8F40-21602C5E73D1}|Edge\\Edge.Grpc\\Edge.Grpc.csproj|solutionrelative:edge\\edge.grpc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\migrations\\registrationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\migrations\\registrationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\entityconfigurations\\registerationefmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\entityconfigurations\\registerationefmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\designtime_timesheetcontext_factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\designtime_timesheetcontext_factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\infra\\infra.persistance.ef\\migrations\\20241129180303_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58853C-DAC6-46BE-9DEE-1E635FA05A40}|Infra\\Infra.Persistance.EF\\Infra.Persistance.EF.csproj|solutionrelative:infra\\infra.persistance.ef\\migrations\\20241129180303_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1783856-E5C1-40BA-B2A8-F6805CC031C4}|Domain\\Domain.Contract\\Domain.Contract.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\domain\\domain.contract\\aggregates\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1783856-E5C1-40BA-B2A8-F6805CC031C4}|Domain\\Domain.Contract\\Domain.Contract.csproj|solutionrelative:domain\\domain.contract\\aggregates\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1783856-E5C1-40BA-B2A8-F6805CC031C4}|Domain\\Domain.Contract\\Domain.Contract.csproj|c:\\users\\mami\\desktop\\rira-challenge\\registerationservice\\domain\\domain.contract\\services\\idomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1783856-E5C1-40BA-B2A8-F6805CC031C4}|Domain\\Domain.Contract\\Domain.Contract.csproj|solutionrelative:domain\\domain.contract\\services\\idomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterationService.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\Services\\RegisterationService.cs",
+              "RelativeDocumentMoniker": "Edge\\Edge.Grpc\\Services\\RegisterationService.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\Services\\RegisterationService.cs",
+              "RelativeToolTip": "Edge\\Edge.Grpc\\Services\\RegisterationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:53:21.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GrpcToCommandAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\Adapters\\GrpcToCommandAdapter.cs",
+              "RelativeDocumentMoniker": "Edge\\Edge.Grpc\\Adapters\\GrpcToCommandAdapter.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\Adapters\\GrpcToCommandAdapter.cs",
+              "RelativeToolTip": "Edge\\Edge.Grpc\\Adapters\\GrpcToCommandAdapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:20:12.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionHandledCommandBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application\\Pipelines\\ExceptionHandledCommandBehaviour.cs",
+              "RelativeDocumentMoniker": "Application\\Application\\Pipelines\\ExceptionHandledCommandBehaviour.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application\\Pipelines\\ExceptionHandledCommandBehaviour.cs",
+              "RelativeToolTip": "Application\\Application\\Pipelines\\ExceptionHandledCommandBehaviour.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:21:22.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Context\\RegistrationContext.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\Context\\RegistrationContext.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Context\\RegistrationContext.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\Context\\RegistrationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:51:33.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationQueryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Context\\RegistrationQueryContext.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\Context\\RegistrationQueryContext.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Context\\RegistrationQueryContext.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\Context\\RegistrationQueryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:51:27.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application\\CommandHandler\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Application\\CommandHandler\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application\\CommandHandler\\RegisterCommand.cs",
+              "RelativeToolTip": "Application\\Application\\CommandHandler\\RegisterCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:48:14.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterationCommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Repositories\\Commands\\RegisterationCommandRepository.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\Repositories\\Commands\\RegisterationCommandRepository.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Repositories\\Commands\\RegisterationCommandRepository.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\Repositories\\Commands\\RegisterationCommandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:20.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\Program.cs",
+              "RelativeDocumentMoniker": "Edge\\Edge.Grpc\\Program.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\Program.cs",
+              "RelativeToolTip": "Edge\\Edge.Grpc\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:12.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRegisterationQueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationQueryRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationQueryRepository.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationQueryRepository.cs",
+              "RelativeToolTip": "Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationQueryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:57:53.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\init\\DBInitializer.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\init\\DBInitializer.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\init\\DBInitializer.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\init\\DBInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:52:32.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application.Contracts\\Commands\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Application.Contracts\\Commands\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application.Contracts\\Commands\\RegisterCommand.cs",
+              "RelativeToolTip": "Application\\Application.Contracts\\Commands\\RegisterCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:20:23.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Context\\RegistrationBaseContext.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\Context\\RegistrationBaseContext.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Context\\RegistrationBaseContext.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\Context\\RegistrationBaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:31:27.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRegisterationCommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationCommandRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationCommandRepository.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationCommandRepository.cs",
+              "RelativeToolTip": "Domain\\Domain\\Model\\Registerations\\Repositories\\IRegisterationCommandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:58.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterationEfMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\EntityConfigurations\\RegisterationEfMapping.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\EntityConfigurations\\RegisterationEfMapping.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\EntityConfigurations\\RegisterationEfMapping.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\EntityConfigurations\\RegisterationEfMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:14.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistrationContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Migrations\\RegistrationContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\Migrations\\RegistrationContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Migrations\\RegistrationContextModelSnapshot.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\Migrations\\RegistrationContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:16.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\appsettings.json",
+              "RelativeDocumentMoniker": "Edge\\Edge.Grpc\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Edge\\Edge.Grpc\\appsettings.json",
+              "RelativeToolTip": "Edge\\Edge.Grpc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T18:32:12.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241129180303_init.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Migrations\\20241129180303_init.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\Migrations\\20241129180303_init.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\Migrations\\20241129180303_init.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\Migrations\\20241129180303_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:15.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DesignTime_TimeSheetContext_Factory.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\DesignTime_TimeSheetContext_Factory.cs",
+              "RelativeDocumentMoniker": "Infra\\Infra.Persistance.EF\\DesignTime_TimeSheetContext_Factory.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Persistance.EF\\DesignTime_TimeSheetContext_Factory.cs",
+              "RelativeToolTip": "Infra\\Infra.Persistance.EF\\DesignTime_TimeSheetContext_Factory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:22:18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAggregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain.Contract\\Aggregates\\IAggregateRoot.cs",
+              "RelativeDocumentMoniker": "Domain\\Domain.Contract\\Aggregates\\IAggregateRoot.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain.Contract\\Aggregates\\IAggregateRoot.cs",
+              "RelativeToolTip": "Domain\\Domain.Contract\\Aggregates\\IAggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:19:41.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain.Contract\\Services\\IDomainService.cs",
+              "RelativeDocumentMoniker": "Domain\\Domain.Contract\\Services\\IDomainService.cs",
+              "ToolTip": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Domain\\Domain.Contract\\Services\\IDomainService.cs",
+              "RelativeToolTip": "Domain\\Domain.Contract\\Services\\IDomainService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:19:35.723Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

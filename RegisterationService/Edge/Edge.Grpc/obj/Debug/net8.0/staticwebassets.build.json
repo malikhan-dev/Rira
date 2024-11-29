@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qH7QBY7K4EGVT0DBdyEjglC6JVMbl8cuZ0VvpZmxsFw=",
+  "Source": "Edge.Grpc",
+  "BasePath": "_content/Edge.Grpc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

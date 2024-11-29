@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3uvQL6vMbU32XOQcN3YSEMjneQk1QeuSp75XYt03UdWwhMAzPDqgoyzZi8TTNOR6ZfZ5x1apU/40UsBVGjhvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mami\\Desktop\\TimeSheet\\TimeSheet\\Application.Commands\\Application.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mami\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

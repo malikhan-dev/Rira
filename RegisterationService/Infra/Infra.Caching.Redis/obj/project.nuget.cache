@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "/GfFhUzXw1wxouk8/Kt0i7+SQHve4zznKc30j0KvNDKnDZDjORyB/fKX4iOVLvkP7PI4utq+gHlU0Oa2l1GYzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Infra\\Infra.Caching.Redis\\Infra.Caching.Redis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.logging\\2.0.0\\microsoft.extensions.logging.2.0.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\redlock.net\\2.3.2\\redlock.net.2.3.2.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\stackexchange.redis\\2.8.0\\stackexchange.redis.2.8.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

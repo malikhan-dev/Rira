@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fQD3OvJmnNy/YfbVo5pxCvdjOmc3m6yo6EZdu8nuS7uH/yuKK5EDQeJE0yTaVYZGfL7AI4QwiFZhzZUALBIuDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mami\\Desktop\\Rira-challenge\\RegisterationService\\Application\\Application.Contracts\\Application.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mami\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Mami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
